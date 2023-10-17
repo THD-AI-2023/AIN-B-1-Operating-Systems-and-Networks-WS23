@@ -7,6 +7,7 @@
     - [The Command Line Interface (CLI)](#the-command-line-interface-cli)
     - [Common Commands in Operating Systems](#common-commands-in-operating-systems)
       - [The `echo` Command](#the-echo-command)
+      - [Displaying Date and Time Manipulation](#displaying-date-and-time-manipulation)
     - [Navigating Directories](#navigating-directories)
       - [Directory Structures](#directory-structures)
       - [Navigation Commands](#navigation-commands)
