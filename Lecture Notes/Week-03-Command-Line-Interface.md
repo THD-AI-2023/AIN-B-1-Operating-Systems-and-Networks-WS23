@@ -1,4 +1,5 @@
-# Introduction to Operating Systems: Week 2
+# Command Line Basics
+
 
 ## Table of Contents
 
@@ -14,17 +15,15 @@
     - [Searching and Patterns](#searching-and-patterns)
     - [Shortcuts and Aliases](#shortcuts-and-aliases)
     - [Conclusion](#conclusion)
-
-## Lecture 2: Command Line Basics
-
-### The Command Line Interface (CLI)
+   
+## The Command Line Interface (CLI)
 
 - The Command Line Interface, or CLI, is a textual interface to interact with a computer. Instead of using graphical elements like buttons or menus, users type commands into a prompt.
 - CLI is often used for tasks that require precise control, automation, or when managing remote machines.
 
-### Common Commands in Operating Systems
+## Common Commands in Operating Systems
 
-#### The `echo` Command
+### The `echo` Command
 
 - The `echo` command is utilized to print text or data to the console. It's a foundational command used in various operating systems, scripting languages, and programming contexts.
   
@@ -42,7 +41,7 @@
   echo $(date)
   ```
 
-#### Displaying Date and Time Manipulation
+### Displaying Date and Time Manipulation
 
 - **`date` Command**: This command displays the current date and time, but can also be used to display a future or past date by using the `-d` option and providing a specific string, like "next Monday".
 
@@ -70,16 +69,16 @@
   - `%H`, `%M`, and `%S` are hours, minutes, and seconds respectively.
   - "Uhr" is German for "hour" or "clock", indicating the time.
  
-### Navigating Directories
+## Navigating Directories
 
-#### Directory Structures
+### Directory Structures
 
 - In different operating systems, the method to refer to directories varies.
 
   - **Windows**: Uses drive letters like `C:/` or `D:/`.
   - **Linux**: Uses a hierarchical structure starting from the root directory, denoted as `/`.
 
-#### Navigation Commands
+### Navigation Commands
 
 - **`pwd`**: Short for 'print working directory', this command displays the directory you're currently in.
   
@@ -113,7 +112,7 @@
   ls -l Downloads
   ```
 
-### File and Directory Management
+## File and Directory Management
 
 - **`mkdir`**: This command creates a new directory.
   
@@ -129,7 +128,7 @@
   cat filename.txt
   ```
 
-#### Manipulating Files
+### Manipulating Files
 
 - **`cp`**: Stands for 'copy'. It's used to duplicate files or directories.
   
@@ -155,7 +154,7 @@
   mv oldname.txt newname.txt
   ```
 
-#### Searching and Patterns
+### Searching and Patterns
 
 - **`ls` with Patterns**: Using patterns can help filter and list specific files.
   
@@ -169,7 +168,7 @@
   ls ??????.txt
   ```
 
-### Shortcuts and Aliases
+## Shortcuts and Aliases
 
 - **`alias`**: This command creates shortcuts for other commands or a series of commands, enhancing efficiency.
 
@@ -178,6 +177,6 @@
   alias ll="ls -l"
   ```
 
-### Conclusion
+## Conclusion
 
 Mastering command-line utilities is crucial for efficiently navigating and managing operating systems, especially in environments without a graphical user interface. The commands discussed in this lecture provide a foundational understanding, but many more commands and functionalities can be explored in the vast realm of operating systems.
