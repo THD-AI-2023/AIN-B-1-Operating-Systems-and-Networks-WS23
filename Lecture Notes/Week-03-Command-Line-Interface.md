@@ -129,6 +129,18 @@
   cat filename.txt
   ```
 
+- **`rm`**: This command is used to remove objects such as files, directories, and symbolic links from the filesystem. By default, it does not remove directories.
+
+  ```bash
+  # Removing a file
+  rm filename.txt
+  ```
+
+  ```bash
+  # Recursively removing a directory and its contents
+  rm -r directory_name
+  ```
+
 ### Manipulating Files
 
 - **`cp`**: Stands for 'copy'. It's used to duplicate files or directories.
