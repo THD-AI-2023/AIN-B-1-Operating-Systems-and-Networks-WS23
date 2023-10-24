@@ -42,6 +42,25 @@
   echo $(date)
   ```
 
+- **`printf` Command**: Similar to `echo`, the `printf` command is used to format and display text or data. It is more powerful than `echo` as it provides the ability to format the output.
+
+  **Example:**
+  ```bash
+  # Printing a formatted string
+  printf "Name: %s, Age: %d\n" "Alice" 25
+  ```
+  ```
+  Name: Alice, Age: 25
+  ```
+
+  ```bash
+  # Printing a formatted date
+  printf "Today is %s\n" "$(date +'%A, %d %B %Y')"
+  ```
+  ```
+  Today is Monday, 24 October 2023
+  ```
+
 ### Displaying Date and Time Manipulation
 
 - **`date` Command**: This command displays the current date and time, but can also be used to display a future or past date by using the `-d` option and providing a specific string, like "next Monday".
